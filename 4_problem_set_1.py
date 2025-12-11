@@ -81,3 +81,21 @@ print("The sum of numbers from 1 to", n, "is", total_sum)
 
 
 # If you want, I can also turn this into a **Google Doc**, **worksheet**, **PDF**, or **Canvas/Schoology assignment format**.
+
+
+
+
+for i in range(10):
+print(i)
+
+
+def factorial(n):
+
+    factorial=1
+
+    for i in range(n):
+        factorial *= i + 1
+
+    return factorial
+
+print(factorial(5))
