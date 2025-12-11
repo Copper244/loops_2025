@@ -38,10 +38,20 @@ print("The sum of numbers from 1 to", n, "is", total_sum)
 
 # ### **Problem 5: Print Even Numbers**
 
-# Ask the user for a number **n**, then print all **even numbers** from 2 up to n.
+# Ask the user for a number **n**,
+#  then print all **even numbers** from 2 up to n.
+n = int(input("Enter a number: "))
+print("Even numbers from 2 to", n, ":")
+for number in range(2, n + 1, 2):
+    print(number)
 
-
-
+list_even_numbers = list(range(1, 45))
+for number in list_even_numbers:
+    # if number is even, print it
+    if number % 2 == 0:
+        print("even number", number)
+    else:
+        print("odd number, skipping", number)
 # ### **Problem 6: Reverse a String**
 
 # Ask the user for a string, then print the string **backwards**.
